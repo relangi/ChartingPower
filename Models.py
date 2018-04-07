@@ -8,7 +8,7 @@ class devices(db.Model):
     def __repr__(self):
         return self.name
 
-class device_state_table(db.Model):
+class device_state(db.Model):
     id=db.Column(db.Integer,primary_key=True)
     logtime_year=db.Column(db.Integer,nullable=False)
     logtime_month=db.Column(db.Integer,nullable=False)
@@ -24,7 +24,7 @@ class device_state_table(db.Model):
     vcc = db.Column(db.Float)
 
 
-class energy_state_table(db.Model):
+class energy_state(db.Model):
     id=db.Column(db.Integer,primary_key=True)
     logtime_year=db.Column(db.Integer,nullable=False)
     logtime_month=db.Column(db.Integer,nullable=False)
