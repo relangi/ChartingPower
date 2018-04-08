@@ -1,0 +1,194 @@
+==================================================
+time.struct_time(tm_year=2018, tm_mon=4, tm_mday=8, tm_hour=14, tm_min=4, tm_sec=30, tm_wday=6, tm_yday=98, tm_isdst=0)
+==================================================
+linestate read as 0The logline below dont match either of ds/es 
+Apr 7, 2018 4:15:20 PM|/192.168.111.106|Service started on 192.168.111.106:8514
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Logging Seriallog 2, Weblog 2, Syslog 4, Host 192.168.111.106, Port 8514, TelePeriod 5
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Handle config
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-Config: Saved configuration (1368 bytes) to flash at FB and count 1066
+
+('192.168.111.225', '2018-04-07T11:46:04', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')==================================================
+time.struct_time(tm_year=2018, tm_mon=4, tm_mday=8, tm_hour=14, tm_min=5, tm_sec=34, tm_wday=6, tm_yday=98, tm_isdst=0)
+==================================================
+linestate read as 0The logline below dont match either of ds/es 
+Apr 7, 2018 4:15:20 PM|/192.168.111.106|Service started on 192.168.111.106:8514
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Logging Seriallog 2, Weblog 2, Syslog 4, Host 192.168.111.106, Port 8514, TelePeriod 5
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Handle config
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-Config: Saved configuration (1368 bytes) to flash at FB and count 1066
+
+('192.168.111.225', '2018-04-07T11:46:04', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')==================================================
+time.struct_time(tm_year=2018, tm_mon=4, tm_mday=8, tm_hour=14, tm_min=6, tm_sec=3, tm_wday=6, tm_yday=98, tm_isdst=0)
+==================================================
+linestate read as 0The logline below dont match either of ds/es 
+Apr 7, 2018 4:15:20 PM|/192.168.111.106|Service started on 192.168.111.106:8514
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Logging Seriallog 2, Weblog 2, Syslog 4, Host 192.168.111.106, Port 8514, TelePeriod 5
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Handle config
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-Config: Saved configuration (1368 bytes) to flash at FB and count 1066
+
+('192.168.111.225', '2018-04-07T11:46:04', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')==================================================
+time.struct_time(tm_year=2018, tm_mon=4, tm_mday=8, tm_hour=14, tm_min=6, tm_sec=22, tm_wday=6, tm_yday=98, tm_isdst=0)
+==================================================
+linestate read as 0The logline below dont match either of ds/es 
+Apr 7, 2018 4:15:20 PM|/192.168.111.106|Service started on 192.168.111.106:8514
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Logging Seriallog 2, Weblog 2, Syslog 4, Host 192.168.111.106, Port 8514, TelePeriod 5
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Handle config
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-Config: Saved configuration (1368 bytes) to flash at FB and count 1066
+
+('192.168.111.225', '2018-04-07T11:46:04', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')==================================================
+time.struct_time(tm_year=2018, tm_mon=4, tm_mday=8, tm_hour=14, tm_min=7, tm_sec=7, tm_wday=6, tm_yday=98, tm_isdst=0)
+==================================================
+linestate read as 0The logline below dont match either of ds/es 
+Apr 7, 2018 4:15:20 PM|/192.168.111.106|Service started on 192.168.111.106:8514
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Logging Seriallog 2, Weblog 2, Syslog 4, Host 192.168.111.106, Port 8514, TelePeriod 5
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Handle config
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-Config: Saved configuration (1368 bytes) to flash at FB and count 1066
+
+('192.168.111.225', '2018-04-07T11:46:04', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')==================================================
+time.struct_time(tm_year=2018, tm_mon=4, tm_mday=8, tm_hour=14, tm_min=8, tm_sec=51, tm_wday=6, tm_yday=98, tm_isdst=0)
+==================================================
+linestate read as 0The logline below dont match either of ds/es 
+Apr 7, 2018 4:15:20 PM|/192.168.111.106|Service started on 192.168.111.106:8514
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Logging Seriallog 2, Weblog 2, Syslog 4, Host 192.168.111.106, Port 8514, TelePeriod 5
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Handle config
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-Config: Saved configuration (1368 bytes) to flash at FB and count 1066
+
+('192.168.111.225', '2018-04-07T11:46:04', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')==================================================
+time.struct_time(tm_year=2018, tm_mon=4, tm_mday=8, tm_hour=14, tm_min=16, tm_sec=48, tm_wday=6, tm_yday=98, tm_isdst=0)
+==================================================
+linestate read as 0The logline below dont match either of ds/es 
+Apr 7, 2018 4:15:20 PM|/192.168.111.106|Service started on 192.168.111.106:8514
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Logging Seriallog 2, Weblog 2, Syslog 4, Host 192.168.111.106, Port 8514, TelePeriod 5
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Handle config
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-Config: Saved configuration (1368 bytes) to flash at FB and count 1066
+
+('192.168.111.225', '2018-04-07T11:46:04', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:46:04', '1.819', '0.081', '0', '11', '0.34', '238', '0.136')('192.168.111.225', '2018-04-07T11:46:09', '16', '3.142', 'ON', 'Silverknight1', '84', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:46:09', '1.819', '0.081', '0', '10', '0.29', '237', '0.146')The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+
+('192.168.111.225', '2018-04-07T11:46:14', '16', '3.142', 'ON', 'Silverknight1', '86', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:46:14', '1.819', '0.081', '0', '9', '0.25', '237', '0.160')('192.168.111.225', '2018-04-07T11:46:19', '16', '3.142', 'ON', 'Silverknight1', '84', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:46:19', '1.819', '0.081', '0', '10', '0.32', '237', '0.141')('192.168.111.225', '2018-04-07T11:46:24', '16', '3.142', 'ON', 'Silverknight1', '84', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:46:24', '1.819', '0.081', '0', '11', '0.33', '238', '0.137')('192.168.111.225', '2018-04-07T11:46:29', '16', '3.142', 'ON', 'Silverknight1', '86', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:46:29', '1.819', '0.081', '0', '10', '0.32', '238', '0.135')The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:34 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:34 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+
+('192.168.111.225', '2018-04-07T11:46:34', '16', '3.142', 'ON', 'Silverknight1', '86', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:46:34', '1.819', '0.081', '0', '10', '0.31', '237', '0.139')('192.168.111.225', '2018-04-07T11:46:39', '16', '3.142', 'ON', 'Silverknight1', '86', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:46:39', '1.819', '0.081', '0', '10', '0.27', '237', '0.161')('192.168.111.225', '2018-04-07T11:46:44', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:46:44', '1.819', '0.081', '0', '14', '0.39', '237', '0.155')('192.168.111.225', '2018-04-07T11:46:49', '16', '3.142', 'ON', 'Silverknight1', '84', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:46:49', '1.819', '0.082', '1', '1446', '0.99', '231', '6.304')The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:54 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:16:54 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+
+('192.168.111.225', '2018-04-07T11:46:54', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:46:54', '1.819', '0.084', '2', '1485', '0.97', '230', '6.641')('192.168.111.225', '2018-04-07T11:46:59', '16', '3.142', 'ON', 'Silverknight1', '86', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:46:59', '1.819', '0.086', '2', '1417', '0.94', '231', '6.506')('192.168.111.225', '2018-04-07T11:47:04', '16', '3.142', 'ON', 'Silverknight1', '86', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:47:04', '1.819', '0.088', '1', '1314', '0.92', '231', '6.122')('192.168.111.225', '2018-04-07T11:47:09', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:47:09', '1.819', '0.090', '1', '1279', '0.93', '231', '5.887')The logline below dont match either of ds/es 
+Apr 7, 2018 4:17:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:17:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+
+('192.168.111.225', '2018-04-07T11:47:14', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:47:14', '1.819', '0.092', '1', '1295', '0.94', '232', '5.935')('192.168.111.225', '2018-04-07T11:47:19', '16', '3.142', 'ON', 'Silverknight1', '90', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:47:19', '1.819', '0.093', '1', '1311', '0.94', '231', '6.000')('192.168.111.225', '2018-04-07T11:47:24', '16', '3.142', 'ON', 'Silverknight1', '90', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:47:24', '1.819', '0.095', '1', '1287', '0.93', '232', '5.942')('192.168.111.225', '2018-04-07T11:47:29', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:47:29', '1.819', '0.097', '1', '1303', '0.94', '231', '5.975')The logline below dont match either of ds/es 
+Apr 7, 2018 4:17:34 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:17:34 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+
+('192.168.111.225', '2018-04-07T11:47:34', '16', '3.141', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:47:34', '1.819', '0.099', '1', '1362', '0.96', '231', '6.113')('192.168.111.225', '2018-04-07T11:47:39', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:47:39', '1.819', '0.101', '1', '1394', '0.96', '231', '6.270')('192.168.111.225', '2018-04-07T11:47:44', '16', '3.142', 'ON', 'Silverknight1', '90', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:47:44', '1.819', '0.103', '1', '1385', '0.94', '232', '6.330')('192.168.111.225', '2018-04-07T11:47:49', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:47:49', '1.819', '0.105', '1', '1383', '0.95', '232', '6.260')The logline below dont match either of ds/es 
+Apr 7, 2018 4:17:54 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:17:54 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+
+('192.168.111.225', '2018-04-07T11:47:54', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:47:54', '1.819', '0.107', '1', '1387', '0.95', '232', '6.260')('192.168.111.225', '2018-04-07T11:47:59', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:47:59', '1.819', '0.108', '1', '1409', '0.95', '231', '6.375')('192.168.111.225', '2018-04-07T11:48:04', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:48:04', '1.819', '0.110', '1', '1413', '0.95', '231', '6.403')('192.168.111.225', '2018-04-07T11:48:09', '16', '3.142', 'ON', 'Silverknight1', '90', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:48:09', '1.819', '0.112', '1', '1426', '0.96', '231', '6.385')The logline below dont match either of ds/es 
+Apr 7, 2018 4:18:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:18:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+
+('192.168.111.225', '2018-04-07T11:48:14', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:48:14', '1.819', '0.114', '1', '1428', '0.96', '230', '6.403')('192.168.111.225', '2018-04-07T11:48:19', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:48:19', '1.819', '0.116', '2', '1434', '0.96', '231', '6.461')('192.168.111.225', '2018-04-07T11:48:24', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:48:24', '1.819', '0.118', '1', '1448', '0.96', '231', '6.516')('192.168.111.225', '2018-04-07T11:48:29', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:48:29', '1.819', '0.121', '2', '1474', '0.97', '231', '6.535')The logline below dont match either of ds/es 
+Apr 7, 2018 4:18:34 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:18:34 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+
+('192.168.111.225', '2018-04-07T11:48:34', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:48:34', '1.819', '0.123', '2', '1460', '0.95', '231', '6.592')('192.168.111.225', '2018-04-07T11:48:39', '16', '3.142', 'ON', 'Silverknight1', '86', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:48:39', '1.819', '0.125', '2', '1458', '0.96', '231', '6.565')('192.168.111.225', '2018-04-07T11:48:44', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:48:44', '1.819', '0.127', '2', '1452', '0.95', '231', '6.576')('192.168.111.225', '2018-04-07T11:48:49', '16', '3.142', 'ON', 'Silverknight1', '90', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:48:49', '1.819', '0.129', '2', '1476', '0.97', '231', '6.546')The logline below dont match either of ds/es 
+Apr 7, 2018 4:18:54 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:18:54 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+
+('192.168.111.225', '2018-04-07T11:48:54', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:48:54', '1.819', '0.131', '2', '1466', '0.96', '231', '6.603')('192.168.111.225', '2018-04-07T11:48:59', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:48:59', '1.819', '0.133', '2', '1470', '0.96', '231', '6.565')('192.168.111.225', '2018-04-07T11:49:04', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:49:04', '1.819', '0.135', '2', '1479', '0.98', '228', '6.584')('192.168.111.225', '2018-04-07T11:49:09', '16', '3.141', 'ON', 'Silverknight1', '86', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:49:09', '1.819', '0.137', '2', '1474', '0.96', '231', '6.603')The logline below dont match either of ds/es 
+Apr 7, 2018 4:19:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+
+The logline below dont match either of ds/es 
+Apr 7, 2018 4:19:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+
+('192.168.111.225', '2018-04-07T11:49:14', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:49:14', '1.819', '0.139', '2', '1487', '0.97', '231', '6.622')('192.168.111.225', '2018-04-07T11:49:19', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:49:19', '1.819', '0.141', '2', '1502', '0.96', '231', '6.692')('192.168.111.225', '2018-04-07T11:49:24', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:49:24', '1.819', '0.143', '2', '1512', '0.97', '231', '6.683')The logline below dont match either of ds/es 
+dfaffafd
+
+The logline below dont match either of ds/es 
+affafadfa
+
+The logline below dont match either of ds/es 
+dsfdfadfdf
+
+The logline below dont match either of ds/es 
+fd
+
+The logline below dont match either of ds/es 
+ajjf;jlj
+
+The logline below dont match either of ds/es 
+hkh;j;
+
+DB Commit completed***End of Script***
+==================================================
+time.struct_time(tm_year=2018, tm_mon=4, tm_mday=8, tm_hour=14, tm_min=20, tm_sec=19, tm_wday=6, tm_yday=98, tm_isdst=0)
+==================================================
+linestate read as 112No new Log messages
+***End of Script***
+==================================================
+time.struct_time(tm_year=2018, tm_mon=4, tm_mday=8, tm_hour=14, tm_min=20, tm_sec=51, tm_wday=6, tm_yday=98, tm_isdst=0)
+==================================================
+linestate read as 112('192.168.111.225', '2018-04-07T11:48:54', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:48:54', '1.819', '0.131', '2', '1466', '0.96', '231', '6.603')('192.168.111.225', '2018-04-07T11:48:59', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:48:59', '1.819', '0.133', '2', '1470', '0.96', '231', '6.565')('192.168.111.225', '2018-04-07T11:49:04', '16', '3.142', 'ON', 'Silverknight1', '88', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:49:04', '1.819', '0.135', '2', '1479', '0.98', '228', '6.584')('192.168.111.225', '2018-04-07T11:49:09', '16', '3.141', 'ON', 'Silverknight1', '86', 'A4:2B:B0:C7:2A:7D')('192.168.111.225', '2018-04-07T11:49:09', '1.819', '0.137', '2', '1474', '0.96', '231', '6.603')
+DB Commit completed***End of Script***

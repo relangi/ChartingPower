@@ -4,6 +4,7 @@ class devices(db.Model):
     id=db.Column(db.Integer,primary_key=True)
     name=db.Column(db.Text,nullable=False)
     sonoff_ip = db.Column(db.Text,nullable=False)
+    sonoff_mac = db.Column(db.Text,nullable=False)
 
     def __repr__(self):
         return self.name
@@ -19,6 +20,7 @@ class device_state(db.Model):
     devices_id = db.Column(db.Integer, db.ForeignKey('devices.id'), nullable=False)
     devices_name = db.Column(db.Text, db.ForeignKey('devices.name'), nullable=False)
     devices_sonoff_ip = db.Column(db.Text, db.ForeignKey('devices.sonoff_ip'), nullable=False)
+    devices_sonoff_mac = db.Column(db.Text, db.ForeignKey('devices.sonoff_mac'), nullable=False)
     power_status = db.Column(db.Boolean,nullable=False)
     wifi_strength = db.Column(db.Float,nullable=False)
     vcc = db.Column(db.Float)
@@ -35,6 +37,7 @@ class energy_state(db.Model):
     devices_id = db.Column(db.Integer, db.ForeignKey('devices.id'), nullable=False)
     devices_name = db.Column(db.Text, db.ForeignKey('devices.name'), nullable=False)
     devices_sonoff_ip = db.Column(db.Text, db.ForeignKey('devices.sonoff_ip'), nullable=False)
+    devices_sonoff_mac = db.Column(db.Text, db.ForeignKey('devices.sonoff_mac'), nullable=False)
     period = db.Column(db.Integer)
     power = db.Column(db.Float,nullable=False)
     factor = db.Column(db.Float)

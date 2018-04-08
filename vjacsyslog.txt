@@ -1,0 +1,120 @@
+Apr 7, 2018 4:15:20 PM|/192.168.111.106|Service started on 192.168.111.106:8514
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Logging Seriallog 2, Weblog 2, Syslog 4, Host 192.168.111.106, Port 8514, TelePeriod 5
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-HTTP: Handle config
+Apr 7, 2018 4:16:04 PM|/192.168.111.225|Sonoff-pow2 ESP-Config: Saved configuration (1368 bytes) to flash at FB and count 1066
+Apr 7, 2018 4:16:05 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:46:04", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:16:05 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:46:04", "Total":94.781, "Yesterday":1.819, "Today":0.081, "Period":0, "Power":11, "Factor":0.34, "Voltage":238, "Current":0.136}
+Apr 7, 2018 4:16:10 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:46:09", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":84, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:16:10 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:46:09", "Total":94.781, "Yesterday":1.819, "Today":0.081, "Period":0, "Power":10, "Factor":0.29, "Voltage":237, "Current":0.146}
+Apr 7, 2018 4:16:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+Apr 7, 2018 4:16:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+Apr 7, 2018 4:16:15 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:46:14", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":86, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:16:15 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:46:14", "Total":94.781, "Yesterday":1.819, "Today":0.081, "Period":0, "Power":9, "Factor":0.25, "Voltage":237, "Current":0.160}
+Apr 7, 2018 4:16:20 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:46:19", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":84, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:16:20 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:46:19", "Total":94.781, "Yesterday":1.819, "Today":0.081, "Period":0, "Power":10, "Factor":0.32, "Voltage":237, "Current":0.141}
+Apr 7, 2018 4:16:25 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:46:24", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":84, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:16:25 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:46:24", "Total":94.781, "Yesterday":1.819, "Today":0.081, "Period":0, "Power":11, "Factor":0.33, "Voltage":238, "Current":0.137}
+Apr 7, 2018 4:16:30 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:46:29", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":86, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:16:30 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:46:29", "Total":94.781, "Yesterday":1.819, "Today":0.081, "Period":0, "Power":10, "Factor":0.32, "Voltage":238, "Current":0.135}
+Apr 7, 2018 4:16:34 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+Apr 7, 2018 4:16:34 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+Apr 7, 2018 4:16:35 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:46:34", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":86, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:16:35 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:46:34", "Total":94.781, "Yesterday":1.819, "Today":0.081, "Period":0, "Power":10, "Factor":0.31, "Voltage":237, "Current":0.139}
+Apr 7, 2018 4:16:40 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:46:39", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":86, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:16:40 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:46:39", "Total":94.781, "Yesterday":1.819, "Today":0.081, "Period":0, "Power":10, "Factor":0.27, "Voltage":237, "Current":0.161}
+Apr 7, 2018 4:16:45 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:46:44", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:16:45 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:46:44", "Total":94.781, "Yesterday":1.819, "Today":0.081, "Period":0, "Power":14, "Factor":0.39, "Voltage":237, "Current":0.155}
+Apr 7, 2018 4:16:50 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:46:49", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":84, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:16:50 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:46:49", "Total":94.782, "Yesterday":1.819, "Today":0.082, "Period":1, "Power":1446, "Factor":0.99, "Voltage":231, "Current":6.304}
+Apr 7, 2018 4:16:54 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+Apr 7, 2018 4:16:54 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+Apr 7, 2018 4:16:55 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:46:54", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:16:55 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:46:54", "Total":94.784, "Yesterday":1.819, "Today":0.084, "Period":2, "Power":1485, "Factor":0.97, "Voltage":230, "Current":6.641}
+Apr 7, 2018 4:17:00 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:46:59", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":86, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:17:00 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:46:59", "Total":94.786, "Yesterday":1.819, "Today":0.086, "Period":2, "Power":1417, "Factor":0.94, "Voltage":231, "Current":6.506}
+Apr 7, 2018 4:17:05 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:47:04", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":86, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:17:05 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:47:04", "Total":94.788, "Yesterday":1.819, "Today":0.088, "Period":1, "Power":1314, "Factor":0.92, "Voltage":231, "Current":6.122}
+Apr 7, 2018 4:17:10 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:47:09", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:17:10 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:47:09", "Total":94.790, "Yesterday":1.819, "Today":0.090, "Period":1, "Power":1279, "Factor":0.93, "Voltage":231, "Current":5.887}
+Apr 7, 2018 4:17:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+Apr 7, 2018 4:17:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+Apr 7, 2018 4:17:15 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:47:14", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:17:15 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:47:14", "Total":94.792, "Yesterday":1.819, "Today":0.092, "Period":1, "Power":1295, "Factor":0.94, "Voltage":232, "Current":5.935}
+Apr 7, 2018 4:17:20 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:47:19", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":90, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:17:20 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:47:19", "Total":94.794, "Yesterday":1.819, "Today":0.093, "Period":1, "Power":1311, "Factor":0.94, "Voltage":231, "Current":6.000}
+Apr 7, 2018 4:17:25 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:47:24", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":90, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:17:25 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:47:24", "Total":94.796, "Yesterday":1.819, "Today":0.095, "Period":1, "Power":1287, "Factor":0.93, "Voltage":232, "Current":5.942}
+Apr 7, 2018 4:17:30 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:47:29", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:17:30 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:47:29", "Total":94.797, "Yesterday":1.819, "Today":0.097, "Period":1, "Power":1303, "Factor":0.94, "Voltage":231, "Current":5.975}
+Apr 7, 2018 4:17:34 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+Apr 7, 2018 4:17:34 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+Apr 7, 2018 4:17:35 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:47:34", "Uptime":16, "Vcc":3.141, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:17:35 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:47:34", "Total":94.799, "Yesterday":1.819, "Today":0.099, "Period":1, "Power":1362, "Factor":0.96, "Voltage":231, "Current":6.113}
+Apr 7, 2018 4:17:40 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:47:39", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:17:40 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:47:39", "Total":94.801, "Yesterday":1.819, "Today":0.101, "Period":1, "Power":1394, "Factor":0.96, "Voltage":231, "Current":6.270}
+Apr 7, 2018 4:17:45 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:47:44", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":90, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:17:45 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:47:44", "Total":94.803, "Yesterday":1.819, "Today":0.103, "Period":1, "Power":1385, "Factor":0.94, "Voltage":232, "Current":6.330}
+Apr 7, 2018 4:17:50 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:47:49", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:17:50 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:47:49", "Total":94.805, "Yesterday":1.819, "Today":0.105, "Period":1, "Power":1383, "Factor":0.95, "Voltage":232, "Current":6.260}
+Apr 7, 2018 4:17:54 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+Apr 7, 2018 4:17:54 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+Apr 7, 2018 4:17:55 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:47:54", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:17:55 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:47:54", "Total":94.807, "Yesterday":1.819, "Today":0.107, "Period":1, "Power":1387, "Factor":0.95, "Voltage":232, "Current":6.260}
+Apr 7, 2018 4:18:00 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:47:59", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:18:00 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:47:59", "Total":94.809, "Yesterday":1.819, "Today":0.108, "Period":1, "Power":1409, "Factor":0.95, "Voltage":231, "Current":6.375}
+Apr 7, 2018 4:18:05 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:48:04", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:18:05 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:48:04", "Total":94.811, "Yesterday":1.819, "Today":0.110, "Period":1, "Power":1413, "Factor":0.95, "Voltage":231, "Current":6.403}
+Apr 7, 2018 4:18:10 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:48:09", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":90, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:18:10 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:48:09", "Total":94.813, "Yesterday":1.819, "Today":0.112, "Period":1, "Power":1426, "Factor":0.96, "Voltage":231, "Current":6.385}
+Apr 7, 2018 4:18:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+Apr 7, 2018 4:18:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+Apr 7, 2018 4:18:15 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:48:14", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:18:15 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:48:14", "Total":94.815, "Yesterday":1.819, "Today":0.114, "Period":1, "Power":1428, "Factor":0.96, "Voltage":230, "Current":6.403}
+Apr 7, 2018 4:18:20 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:48:19", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:18:20 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:48:19", "Total":94.817, "Yesterday":1.819, "Today":0.116, "Period":2, "Power":1434, "Factor":0.96, "Voltage":231, "Current":6.461}
+Apr 7, 2018 4:18:25 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:48:24", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:18:25 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:48:24", "Total":94.819, "Yesterday":1.819, "Today":0.118, "Period":1, "Power":1448, "Factor":0.96, "Voltage":231, "Current":6.516}
+Apr 7, 2018 4:18:30 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:48:29", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:18:30 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:48:29", "Total":94.821, "Yesterday":1.819, "Today":0.121, "Period":2, "Power":1474, "Factor":0.97, "Voltage":231, "Current":6.535}
+Apr 7, 2018 4:18:34 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+Apr 7, 2018 4:18:34 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+Apr 7, 2018 4:18:35 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:48:34", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:18:35 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:48:34", "Total":94.823, "Yesterday":1.819, "Today":0.123, "Period":2, "Power":1460, "Factor":0.95, "Voltage":231, "Current":6.592}
+Apr 7, 2018 4:18:40 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:48:39", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":86, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:18:40 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:48:39", "Total":94.825, "Yesterday":1.819, "Today":0.125, "Period":2, "Power":1458, "Factor":0.96, "Voltage":231, "Current":6.565}
+Apr 7, 2018 4:18:45 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:48:44", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:18:45 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:48:44", "Total":94.827, "Yesterday":1.819, "Today":0.127, "Period":2, "Power":1452, "Factor":0.95, "Voltage":231, "Current":6.576}
+Apr 7, 2018 4:18:50 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:48:49", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":90, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:18:50 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:48:49", "Total":94.829, "Yesterday":1.819, "Today":0.129, "Period":2, "Power":1476, "Factor":0.97, "Voltage":231, "Current":6.546}
+Apr 7, 2018 4:18:54 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+Apr 7, 2018 4:18:54 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+Apr 7, 2018 4:18:55 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:48:54", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:18:55 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:48:54", "Total":94.831, "Yesterday":1.819, "Today":0.131, "Period":2, "Power":1466, "Factor":0.96, "Voltage":231, "Current":6.603}
+Apr 7, 2018 4:19:00 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:48:59", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:19:00 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:48:59", "Total":94.833, "Yesterday":1.819, "Today":0.133, "Period":2, "Power":1470, "Factor":0.96, "Voltage":231, "Current":6.565}
+Apr 7, 2018 4:19:05 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:49:04", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:19:05 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:49:04", "Total":94.835, "Yesterday":1.819, "Today":0.135, "Period":2, "Power":1479, "Factor":0.98, "Voltage":228, "Current":6.584}
+Apr 7, 2018 4:19:10 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:49:09", "Uptime":16, "Vcc":3.141, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":86, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:19:10 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:49:09", "Total":94.837, "Yesterday":1.819, "Today":0.137, "Period":2, "Power":1474, "Factor":0.96, "Voltage":231, "Current":6.603}
+Apr 7, 2018 4:19:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Checking connection...
+Apr 7, 2018 4:19:14 PM|/192.168.111.225|Sonoff-pow2 ESP-Wifi: Connected
+Apr 7, 2018 4:19:15 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:49:14", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:19:15 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:49:14", "Total":94.839, "Yesterday":1.819, "Today":0.139, "Period":2, "Power":1487, "Factor":0.97, "Voltage":231, "Current":6.622}
+Apr 7, 2018 4:19:20 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:49:19", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:19:20 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:49:19", "Total":94.841, "Yesterday":1.819, "Today":0.141, "Period":2, "Power":1502, "Factor":0.96, "Voltage":231, "Current":6.692}
+Apr 7, 2018 4:19:25 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:49:24", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:19:25 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:49:24", "Total":94.843, "Yesterday":1.819, "Today":0.143, "Period":2, "Power":1512, "Factor":0.97, "Voltage":231, "Current":6.683}
+dfaffafd
+affafadfa
+dsfdfadfdf
+fd
+ajjf;jlj
+hkh;j;
+Apr 7, 2018 4:18:55 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:48:54", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:18:55 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:48:54", "Total":94.831, "Yesterday":1.819, "Today":0.131, "Period":2, "Power":1466, "Factor":0.96, "Voltage":231, "Current":6.603}
+Apr 7, 2018 4:19:00 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:48:59", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:19:00 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:48:59", "Total":94.833, "Yesterday":1.819, "Today":0.133, "Period":2, "Power":1470, "Factor":0.96, "Voltage":231, "Current":6.565}
+Apr 7, 2018 4:19:05 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:49:04", "Uptime":16, "Vcc":3.142, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":88, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:19:05 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:49:04", "Total":94.835, "Yesterday":1.819, "Today":0.135, "Period":2, "Power":1479, "Factor":0.98, "Voltage":228, "Current":6.584}
+Apr 7, 2018 4:19:10 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/STATE = {"Time":"2018-04-07T11:49:09", "Uptime":16, "Vcc":3.141, "POWER":"ON", "Wifi":{"AP":1, "SSID":"Silverknight1", "RSSI":86, "APMac":"A4:2B:B0:C7:2A:7D"}}
+Apr 7, 2018 4:19:10 PM|/192.168.111.225|Sonoff-pow2 ESP-MQTT: tele/sonoffP2/ENERGY = {"Time":"2018-04-07T11:49:09", "Total":94.837, "Yesterday":1.819, "Today":0.137, "Period":2, "Power":1474, "Factor":0.96, "Voltage":231, "Current":6.603}
