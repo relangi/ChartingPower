@@ -45,3 +45,14 @@ class energy_state(db.Model):
     current = db.Column(db.Float)
     kwh_sofar_today = db.Column(db.Float,nullable=False)
     kwh_yesterday = db.Column(db.Float,nullable=False)
+
+class daily_summary(db.Model):
+    id=db.Column(db.Integer,primary_key=True)
+    logtime_year=db.Column(db.Integer,nullable=False)
+    logtime_month=db.Column(db.Integer,nullable=False)
+    logtime_date=db.Column(db.Integer,nullable=False)
+    devices_id = db.Column(db.Integer, db.ForeignKey('devices.id'), nullable=False)
+    devices_name = db.Column(db.Text, db.ForeignKey('devices.name'), nullable=False)
+    devices_sonoff_ip = db.Column(db.Text, db.ForeignKey('devices.sonoff_ip'), nullable=False)
+    devices_sonoff_mac = db.Column(db.Text, db.ForeignKey('devices.sonoff_mac'), nullable=False)
+    kwh_ontheday = db.Column(db.Float,nullable=False)
