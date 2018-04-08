@@ -1,0 +1,106 @@
+{%extends "base.html"%}
+
+{% block content %}
+<fieldset> <legend> Games available in your Location</legend>
+{% for game in gamesavail %}
+    <li>{{ game }}</li>
+{% endfor %}
+</fieldset>
+<br/>
+<fieldset> <legend> Users available in your Location</legend>
+    <table class="flat-table">
+                <thead>
+        <th>Usernames</th>
+        </thead>
+{% for users in usersavail %}
+
+
+    <tr>
+        {% if users.id != user.id %}
+        <td><a href ="{{ url_for('userprofile', userid= users.id) }}">{{ users.id }}</a></td>
+        {% endif %}
+    </tr>
+{% endfor %}
+        </table>
+</fieldset>
+
+<fieldset> <legend> Received Invitations </legend>
+    <table class="flat-table">
+         <thead>
+        <th>Game Name</th>
+         <th>Invite Message</th>
+         <th>Action</th>
+        </thead>
+{% for inv in rec_invitations %}
+    <tr>
+        <td>{{ inv.game_name }}</td>
+        <td>{{ inv.invite_text }}</td>
+        <td><a href="{{ url_for('acceptfixture',fixid=inv.id) }}"> Accept </a></td>
+
+    </tr>
+{% endfor %}
+        </table>
+</fieldset>
+
+<fieldset> <legend> Pending Invitations Sent</legend>
+    <table class="flat-table">
+                 <thead>
+        <th>Game Name</th>
+         <th>Reciever Username</th>
+        <th>Invite Message</th>
+        </thead>
+{% for inv in snt_invitations %}
+    <tr>
+        <td>{{ inv.game_name }}</td>
+        <td>{{ inv.receiver_id }}</td>
+        <td>{{ inv.invite_text }}</td>
+    </tr>
+{% endfor %}
+        </table>
+</fieldset>
+
+<fieldset> <legend> Pending Games </legend>
+    <table class="flat-table">
+        <thead>
+        <th>Game Name</th>
+         <th>User 1</th>
+        <th>User 2</th>
+        <th>Action</th>
+
+        </thead>
+{% for game in pnd_games %}
+        <tr>
+        <td>{{ game.game_name }}</td>
+        <td>{{ game.user_one }}</td>
+        <td>{{ game.user_two }}</td>
+        <td><a href ="{{ url_for('updatefixature', fixid= game.id) }}"> Update Game Status </a></td>
+
+</tr>
+{% endfor %}
+        </table>
+</fieldset>
+
+
+<fieldset> <legend> Completed Games </legend>
+    <table class="flat-table">
+        <thead>
+        <th>Game Name</th>
+         <th>Winner 1</th>
+        <th>Winner 2</th>
+        <th>Fixture Details</th>
+
+        </thead>
+
+{% for game in comp_games %}
+
+        <tr>
+        <td>{{ game.game_name }}</td>
+        <td>{{ game.winner_one }}</td>
+        <td>{{ game.winner_two }}</td>
+            <td><a href ="{{ url_for('fixture', fixid= game.id) }}"> Details of the Game </a></td>
+        </tr>
+{% endfor %}
+        </table>
+</fieldset>
+
+{% endblock %}
