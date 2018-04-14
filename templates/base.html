@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ page_title }}</title>
+  <link rel="stylesheet" type="text/css" href="../static/css/base.css">
+  <script src='../static/Chart.min.js'></script>
+</head>
+
+<body>
+<div id = "portaltitle">Charting Power Dashboard</div>
+<hr/>
+<div id="links">
+    <a href="{{ url_for('dashboard') }}"> Dashboard </a> |
+    <a href="{{ url_for('dashboard') }}"> Custom Reports </a> |
+    <a href="{{ url_for('dashboard') }}"> Add New Devices </a>
+    <br/><br/>
+</div>
+
+{% block content %}{% endblock %}
+</body>
+</html>
