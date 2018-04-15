@@ -8,6 +8,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///'+ os.path.join(basedir,'powercharting.db')
 app.config ['SECRET_KEY'] = 'M\x95KT\x98\x0cz\r\xd9\x03O\xafp \x9e\xb7\xceE\xee\x06\x9b@/e'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 @app.route('/dashboard')
@@ -58,8 +59,8 @@ def customreports():
             else:
                 max_val_set = 0
             devobj = Models.devices.query.filter(Models.devices.id == str(dev)).first()
-            app.logger.debug (dev)
-            app.logger.debug (type(devobj))
+            #app.logger.debug (dev)
+            #app.logger.debug (type(devobj))
             lab_val_max = [lab_val_data,[max_val_set],[devobj.name],[devobj.id]]
 
             complete_data.append(lab_val_max)
@@ -112,4 +113,4 @@ def validate_combination(x,y):
     return [False,'']
 
 if __name__ == '__main__':
-    app.run(debug="True")
+    app.run(debug="False")
