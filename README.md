@@ -15,7 +15,7 @@ That displays interactive charts to end users. Different tabs include
   > _virtualenv __ChartingPower___  
   > _cd __ChartingPower/scripts/activate.bat___  
     _pip install __flask__, __flask_sqlalchemy__, __falsk_wtf___  
-* Start the application  
+* Clone the Git Repository to a folder inside __ChartingPower__ Home Folder & Start the application from that path.
   >_python __Home.py___
 * Ensure to append the new logs to the ___vjacsyslog.txt___ file  
 * Schedule Worker script using crontab at the required frequency.
