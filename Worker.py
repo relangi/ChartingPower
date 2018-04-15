@@ -1,5 +1,6 @@
 from Models import *
 from time import strptime,localtime
+from datetime import datetime
 import os,re
 
 #Defining Functions
@@ -30,16 +31,25 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 input_logfile_path = os.path.join(basedir,'vjacsyslog.txt')
 linestate_logfile_path = os.path.join(basedir,'linestate.txt')
 worker_logfile_path = os.path.join(basedir,'worker_log.txt')
+health_status_file_path = os.path.join(basedir,'healthstatus.txt')
+DB_path = os.path.join(basedir,'powercharting.db')
 
 #Opening files
 linestate = open(linestate_logfile_path,'r+')
 input_logfile = open(input_logfile_path,'r')
 worker_logfile = open(worker_logfile_path,'a')
+health_status = open(health_status_file_path,'w')
 
 #initializing log file
 worker_logfile.write('='*50+"\n")
-worker_logfile.write(str(localtime())+"\n")
+worker_logfile.write(datetime.isoformat(datetime.now())+"\n")
 worker_logfile.write('='*50+"\n")
+
+health_status.write('-'*50+"\n")
+health_status.write(datetime.isoformat(datetime.now())+"\n")
+health_status.write('-'*50+"\n")
+health_status.write('Worker Status: \n')
+
 
 #Defining regular expressions to parse log files
 device_state_parser = re.compile('[\w\s\:\,]+\|\/(\d+\.\d+\.\d+\.\d+)\|[\w\-\s]+\:\stele\/sonoffP2\/STATE\s\=\s\{\"Time\"\:\"([\w\-\:]+)\"\,\s\"Uptime\"\:([\d\.]+)\,\s\"Vcc\"\:([\d\.]+)\,\s"POWER\"\:\"(\w+)\"\,\s\"Wifi\"\:\{\"AP\"\:\d+\,\s\"SSID\"\:\"(\w+)\"\,\s\"RSSI\"\:([\d\.]+)\,\s\"APMac\"\:\"([\w\:]+)\"\}\}')
@@ -48,20 +58,24 @@ energy_state_parser = re.compile('[\w\s\:\,]+\|\/(\d+\.\d+\.\d+\.\d+)\|[\w\-\s]+
 #Reading the value of number of lines parsed last time & seeking to starting of file
 linestate_value = int(linestate.readline())
 linestate.seek(0)
-worker_logfile.write("linestate read as "+ str(linestate_value))
+worker_logfile.write("linestate read as "+ str(linestate_value)+"\n")
 
 #Reading the actual Log update
 input_buffer = input_logfile.readlines()
 
 if linestate_value == len(input_buffer):
     print ("No new Log messages")
-    worker_logfile.write("No new Log messages\n")
+    worker_logfile.write("No new Log messages found in the latest worker process attempt\n")
+    health_status.write("No new Log messages found in the latest worker process attempt\n")
 elif linestate_value > len(input_buffer):
     print ("The Input Logfile seems to have changed/overwritten from first. Reset the statefile value to 0 manually")
     worker_logfile.write("The Input Logfile seems to have changed/overwritten from first. Reset the statefile value to 0 manually\n")
+    health_status.write("The Input Logfile seems to have changed/overwritten from first. Reset the statefile value to 0 manually\n")
 else:
     update_buffer = input_buffer[linestate_value::]
     print("There are "+ str(len(update_buffer))+" lines of new log updates to parse")
+    worker_logfile.write("There are "+ str(len(update_buffer))+" lines of new log updates to parse\n")
+    health_status.write("There are "+ str(len(update_buffer))+" lines of log updates parsed in last Worker process attempt\n")
 
     for eachline in update_buffer:
         dsr = device_state_parser.findall(eachline)
@@ -86,7 +100,7 @@ else:
                 worker_logfile.write(str(dsr[0][0])+" device with that IP dont exist in db")
 
         elif (len(esr)):
-            worker_logfile.write(str(esr[0]))
+            worker_logfile.write(str(esr[0])+"\n")
             if (return_deviceobj(esr[0][0])):
 
                 esr_device = return_deviceobj(esr[0][0])
@@ -119,6 +133,17 @@ else:
     linestate.write(str(len(input_buffer)))
     db.session.commit()
     worker_logfile.write("\nDB Commit completed")
+    health_status.write("\n Worker succesfully ran last time on the above time stamp.")
+
+
+#Updating DB Status
+health_status.write("\nDB Status:\n")
+health_status.write("Records in \"devices\" table :"+ str(len(devices.query.all())) +"\n")
+health_status.write("Records in \"device_state\" table :"+ str(len(device_state.query.all())) +"\n")
+health_status.write("Records in \"energy_state\" table :"+ str(len(energy_state.query.all())) +"\n")
+health_status.write("Records in \"daily_summary\" table :"+ str(len(daily_summary.query.all())) +"\n")
+
+health_status.write("\n DB Size is "+ str(round(float(os.stat(DB_path).st_size)/1024/1024,5)) +" MB\n")
 
 #Closing Files
 worker_logfile.write("***End of Script***\n")
@@ -126,3 +151,4 @@ worker_logfile.write("***End of Script***\n")
 linestate.close()
 input_logfile.close()
 worker_logfile.close()
+health_status.close()

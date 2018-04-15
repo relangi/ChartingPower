@@ -1,0 +1,26 @@
+{%extends "base.html"%}
+{%from "form_macro.html" import render_field%}
+
+{% block content %}
+<div id ="title">
+        <br/>
+        <b><i>New Device Form</i></b></div><br/>
+<div id ="newdeviceform">
+
+<form action="" method="post">
+    {{ form.hidden_tag() }}
+    <table>
+        {{ render_field(form.name) }}
+        {{ render_field(form.sonoff_ip) }}
+        {{ render_field(form.sonoff_mac) }}
+
+        <tr class="submit">
+            <td></td>
+            <td><button type="submit">Add the Device</button>
+            </td>
+        </tr>
+    </table>
+</form>
+    </div>
+
+{% endblock %}

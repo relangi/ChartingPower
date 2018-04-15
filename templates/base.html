@@ -8,14 +8,28 @@
 </head>
 
 <body>
-<div id = "portaltitle">Charting Power Dashboard</div>
-<hr/>
+<div id = "portaltitle">Charting Power</div>
+<hr  align="left">
+
 <div id="links">
     <a href="{{ url_for('dashboard') }}"> Dashboard </a> |
-    <a href="{{ url_for('dashboard') }}"> Custom Reports </a> |
-    <a href="{{ url_for('dashboard') }}"> Add New Devices </a>
+    <a href="{{ url_for('customreports') }}"> Custom Reports </a> |
+    <a href="{{ url_for('addnewdevices') }}"> Add New Devices </a> |
+    <a href="{{ url_for('healthstatus') }}"> System Health Status </a>
     <br/><br/>
 </div>
+<div id ="flash">
+{% with messages = get_flashed_messages() %}
+{%if messages %}
+
+<ul>
+    {% for message in messages %}
+    {{ message }}
+    {% endfor %}
+</ul>
+{% endif %}
+{% endwith %}
+    </div>
 
 {% block content %}{% endblock %}
 </body>

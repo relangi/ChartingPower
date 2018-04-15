@@ -1,0 +1,17 @@
+{%extends "base.html"%}
+{% block content %}
+
+<div id ="logmessage" align="left">
+    <div id ="title">
+        <br/>
+        <b><i>Health Status of the System </i></b></div><br/>
+    {% for eachline in msg %}
+    {{ eachline }} <br/>
+    {% endfor %}
+
+<br/><br/>
+    <b><i>Note: </i></b> <i>The Health status is collected on the last Worker run state.</i>
+</div>
+
+
+{% endblock %}

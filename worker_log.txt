@@ -514,3 +514,26 @@ Apr 7, 2018 4:19:14 PM|/192.168.111.226|Sonoff-pow2 ESP-Wifi: Connected
 ('192.168.111.226', '2018-04-12T11:50:04', '1.650', '0.141', '2', '1502', '0.96', '231', '6.692')('192.168.111.226', '2018-04-12T11:50:09', '16', '3.142', 'ON', 'Silverknight1', '88', 'B4:2B:B0:C7:2A:7D')
 ('192.168.111.226', '2018-04-12T11:50:09', '1.650', '0.143', '2', '1512', '0.97', '231', '6.683')
 DB Commit completed***End of Script***
+==================================================
+2018-04-15T16:01:29.924000
+==================================================
+linestate read as 462
+No new Log messages found in the latest worker process attempt
+==================================================
+2018-04-15T16:02:39.063000
+==================================================
+linestate read as 462
+No new Log messages found in the latest worker process attempt
+***End of Script***
+==================================================
+2018-04-15T16:03:49.391000
+==================================================
+linestate read as 462
+No new Log messages found in the latest worker process attempt
+***End of Script***
+==================================================
+2018-04-15T18:36:10.815000
+==================================================
+linestate read as 462
+No new Log messages found in the latest worker process attempt
+***End of Script***

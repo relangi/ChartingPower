@@ -1,0 +1,13 @@
+--------------------------------------------------
+2018-04-15T18:36:10.815000
+--------------------------------------------------
+Worker Status: 
+No new Log messages found in the latest worker process attempt
+
+DB Status: 
+Records in "devices" table :3
+Records in "device_state" table :177
+Records in "energy_state" table :177
+Records in "daily_summary" table :10
+
+DB Size is 0.04297 MB

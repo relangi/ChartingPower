@@ -1,16 +1,49 @@
 {%extends "base.html"%}
 {% block content %}
 
+<div id ="reports" align="center">
 
-<div id ="Charts" align="center">
+    <div id ="title">
+        <br/>
+        <b><i>Custom Reports</i></b></div>
+    <br/>
+<form action="" method="post">
+    Select Device :
+    <select name ="device_value">
+        {% for eachval in dev_dd_list %}
+        <option value={{ eachval[1] }}>{{ eachval[0] }}</option>
+        {% endfor %}
+</select>
+
+    X-Axis :
+    <select name ="x_value">
+        {% for eachval in x_axis %}
+        <option value={{ eachval }}>{{ eachval }}</option>
+        {% endfor %}
+</select>
+
+    Y-Axis :
+    <select name ="y_value">
+        {% for eachval in y_axis %}
+        <option value={{ eachval }}>{{ eachval }}</option>
+        {% endfor %}
+</select>
+
+    <button type="submit">Generate Chart</button>
+
+
+</form>
+    <br/>
+
+    <div id ="Charts" align="center">
 
     {% for eachchart in charts %}
 
     <div id ="title">
         <br/>
-        Power usage for <b><i>{{ eachchart[2][0] }} </b></i>- Daily History</div>
+        Custom Graph for <b><i>{{ eachchart[2][0] }} </b></i>- {{ x }} vs {{ y }} </div>
 
-    <canvas id={{ eachchart[3][0] }} width="600" height="400"></canvas>
+    <canvas id={{ eachchart[3][0] }} width="1600" height="650"></canvas>
     <script>
       // bar chart data
       var barData = {
@@ -65,4 +98,7 @@
     {% endfor %}
 
   </div>
+
+</div>
+
 {% endblock %}
