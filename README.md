@@ -12,11 +12,11 @@ That displays interactive charts to end users. Different tabs include
 ## Procedure to run the application
 * Browse to the directory required & build a seperate virtualenv, to avoid conflict with other applications. Python ver 2.7
 * activate the Virtualenv and install the modules flask, flask_sqlalchemy, flask_wtf
- * *virtualenv ChartingPower*
-   *cd ChartingPower/scripts/active.bat*
-   *pip install flask, flask_sqlalchemy, falsk_wtf*
+    > virtualenv ChartingPower
+    > cd ChartingPower/scripts/active.bat
+    > pip install flask, flask_sqlalchemy, falsk_wtf
 * execute the Home.py
- * *python Home.py*
+  >_python Home.py_
 * Ensure to append the new logs to the "vjacsyslog.txt" file
 * Schedule Worker script using crontab at the required frequency.
 
